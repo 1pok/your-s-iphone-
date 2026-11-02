@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="709" height="1536" viewBox="0 0 709 1536" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2=".78" y2="1"><stop stop-color="#a0d8ef"/><stop offset=".31" stop-color="#61afe6"/><stop offset=".60" stop-color="#377ecb"/><stop offset="1" stop-color="#104f9b"/></linearGradient>
+ <linearGradient id="north" x1=".25" y1=".06" x2=".92" y2=".85"><stop stop-color="#82c9eb"/><stop offset=".34" stop-color="#2e91dd"/><stop offset=".72" stop-color="#1c6dc4"/><stop offset="1" stop-color="#124e95"/></linearGradient>
+ <linearGradient id="south" x1=".4" y1=".2" x2=".8" y2="1"><stop stop-color="#2479cc"/><stop offset=".33" stop-color="#095bad"/><stop offset=".75" stop-color="#053178"/><stop offset="1" stop-color="#04174c"/></linearGradient>
+ <linearGradient id="pale" x1=".1" y1=".25" x2=".95" y2=".8"><stop stop-color="#b3dcf0"/><stop offset=".42" stop-color="#98c9eb"/><stop offset=".75" stop-color="#d9e5ef"/><stop offset="1" stop-color="#e5e5ed"/></linearGradient>
+ <radialGradient id="light"><stop stop-color="#b4e1f5" stop-opacity=".58"/><stop offset="1" stop-color="#8dcff1" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="709" height="1536" fill="url(#sky)"/>
+<ellipse cx="65" cy="90" rx="570" ry="450" fill="url(#light)"/>
+<!-- curved medium-blue panel at top right -->
+<path d="M709 145 C563 171 441 312 362 466 C325 539 305 619 315 767 C426 680 568 527 709 398 Z" fill="url(#north)"/>
+<path d="M709 145 C563 172 438 309 362 466" fill="none" stroke="#085aa5" stroke-width="3" opacity=".48"/>
+<!-- deep blue lower-right field -->
+<path d="M709 399 C556 540 429 653 314 768 C306 909 250 1106 127 1301 C83 1370 40 1438 0 1536 L709 1536 Z" fill="url(#south)"/>
+<!-- pale translucent left sweep -->
+<path d="M0 581 C92 621 250 709 309 822 C337 915 294 1061 211 1215 C136 1351 61 1454 0 1501 Z" fill="url(#pale)"/>
+<path d="M0 581 C132 633 243 727 309 822 C330 868 335 924 322 988" fill="none" stroke="#d8edfa" stroke-opacity=".22" stroke-width="2"/>
+<!-- translucent crescent reflection -->
+<path d="M0 1529 C147 1358 277 1100 310 887 C318 976 260 1228 0 1501 Z" fill="#f2f4f8" fill-opacity=".24"/>
+</svg>
